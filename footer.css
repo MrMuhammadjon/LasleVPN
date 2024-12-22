@@ -1,0 +1,84 @@
+:root {
+    --text-color-1: black;
+    --text-color-2: #4F5665;
+    --text-color-3: #0B132A;
+    --text-color-4: #fff;
+    --button-color-1: #F53855;
+    --button-color-2: #F53838;
+    --cek-box-color-1: #2FAB73;
+}
+
+footer {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.footer-section {
+    max-width: 30%;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #f85a3e;
+}
+
+.logo-section {
+    text-align: left;
+}
+
+.logo-section img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.logo-section p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
